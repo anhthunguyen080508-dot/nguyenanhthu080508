@@ -6,7 +6,7 @@ height: 100vh;
 .header{
   flex: 15%;
   background-color:lightblue;
-  background:url(    )center;
+  background:url(images/images.png)center;
 }
 .menu{
  flex:5%;
