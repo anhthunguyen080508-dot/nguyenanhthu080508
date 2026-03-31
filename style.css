@@ -10,7 +10,7 @@ height: 100vh;
 }
 .menu{
  flex:5%;
- background-color:white;
+ background-color:light purple;
  display: flex;
  align-items: center;
 }
