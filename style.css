@@ -16,7 +16,7 @@ height: 100vh;
 }
 .menu a{
  padding: 15px 20px;
- color: blue;
+ color: red;
 }
 .menu hover{
  background-color:yellow;
