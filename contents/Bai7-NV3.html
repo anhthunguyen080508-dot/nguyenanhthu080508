@@ -1,27 +1,16 @@
-<html>
 <head>
   <meta charset="utf-8">
-  <title>Phản hồi</title>
 </head>
-</html>
-
-</body>
-</html>
-<body>
-  <h3>Cảm ơn bạn đã đóng góp ý kiến</h3>
-  <p>Chúng tôi xin ghi nhận ý kiến của bạn và sẽ cải tiến, nâng cao chất lượng phục vụ hơn nữa trong thời gian sắp tới.</p>
-</body>
-<html>
 <body>
 <p id="kq" > </p›
 < script>
 let params = new URLSearchParams (window. location. search);
 let name = params.get ("txtTen");
-let yk = params.get ("txtYk");
+let yk = params.get ("txtComment");
 document.getElementById("kq"). innerHTML = "Cảm ơn bạn " + name + "đã góp ý"
 + "<br><br>Chúng tôi xin ghi nhận ý kiến của bạn như sau: <br>" + yk ;
 </script>
 <form action="Bai7-NV2.html">
-  <h3>Cảm ơn bạn đã đóng góp ý kiến</h3>
-  <p>Chúng tôi xin ghi nhận ý kiến của bạn và sẽ cải tiến, nâng cao chất lượng phục vụ hơn nữa trong thời gian sắp tới.</p>
+  <input type="submit" name ="cmd" value ="Quay lại">
+</form>
 </body>
